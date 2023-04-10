@@ -37,6 +37,6 @@ const DiscoveryHero = () => {
       </div>
     </>
   );
-};
+}
 
 export default DiscoveryHero;
