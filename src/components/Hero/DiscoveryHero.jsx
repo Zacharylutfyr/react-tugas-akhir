@@ -26,10 +26,10 @@ const DiscoveryHero = () => {
             </div>
             <div class='col-lg-4 col-md-12 col-sm-12 px-5 right-hero'>
               <div class='banner'>
-                <img src={discoveryHero} alt='' />
+                <img src={discoveryHero} alt='nusa.jpg' />
               </div>
               <div class='banner1'>
-                <img src={discoveryHero2} alt='' />
+                <img src={discoveryHero2} alt='b1.jpg' />
               </div>
             </div>
           </div>
