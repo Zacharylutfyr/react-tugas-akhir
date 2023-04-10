@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Destination from './pages/Destinaion/Destination';
 import Package from './pages/Package/Package';
 import AboutUs from './pages/AboutUs/AboutUs';
+import DestinationDetail from './components/Checkout/DestinationDetail';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/destination' element={<Destination />} />
           <Route path='/package' element={<Package />} />
           <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/destination-detail' element={<DestinationDetail/>}/>
         </Routes>
         <Footer />
       </Router>
