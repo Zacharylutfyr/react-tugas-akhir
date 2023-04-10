@@ -7,6 +7,8 @@ import Destination from './pages/Destinaion/Destination';
 import Package from './pages/Package/Package';
 import AboutUs from './pages/AboutUs/AboutUs';
 import DestinationDetail from './components/Checkout/DestinationDetail';
+import PrivateDetail from './components/Checkout/PrivateDetail';
+import CheckoutSucess from './components/Checkout/CheckoutSucess';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
           <Route path='/destination' element={<Destination />} />
           <Route path='/package' element={<Package />} />
           <Route path='/about-us' element={<AboutUs />} />
-          <Route path='/destination-detail' element={<DestinationDetail/>}/>
+          <Route path='/destination-detail' element={<DestinationDetail />} />
+          <Route path='/private-detail' element={<PrivateDetail/>} />
+          <Route path='/checkout-sucess' element={<CheckoutSucess/>} />
         </Routes>
         <Footer />
       </Router>
