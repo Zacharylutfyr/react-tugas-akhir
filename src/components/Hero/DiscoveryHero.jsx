@@ -1,9 +1,11 @@
 import React from 'react';
+import discoveryHero from '../../assets/img/nusa.jpg'
+import discoveryHero2 from '../../assets/img/b1.jpg'
 
 const DiscoveryHero = () => {
   return (
     <>
-      {/* <!-- hero --> */}
+    
       <div class='hero'>
         <div class='container'>
           <div class='row'>
@@ -24,16 +26,15 @@ const DiscoveryHero = () => {
             </div>
             <div class='col-lg-4 col-md-12 col-sm-12 px-5 right-hero'>
               <div class='banner'>
-                <img src='img/b1.jpg' alt='' />
+                <img src={discoveryHero} alt='' />
               </div>
               <div class='banner1'>
-                <img src='img/b1.jpg' alt='' />
+                <img src={discoveryHero2} alt='' />
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- end hero --> */}
     </>
   );
 };

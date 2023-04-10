@@ -1,4 +1,5 @@
 import React from 'react';
+import sky from '../../assets/img/sky.png'
 
 const OurPackage = () => {
   return (
@@ -22,19 +23,19 @@ const OurPackage = () => {
                 </p>
 
                 <div class='sky sky-1'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-2'>
-                  <img src='img/sky.png' alt='sky.png' />
+                <img src={sky} alt="" />
                 </div>
                 <div class='sky sky-3'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-4'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-5'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
               </div>
               <div class='card open-trip'>
@@ -46,19 +47,19 @@ const OurPackage = () => {
                   friendships and unforgettable memories.
                 </p>
                 <div class='sky sky-1'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-2'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-3'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-4'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
                 <div class='sky sky-5'>
-                  <img src='img/sky.png' alt='sky.png' />
+                  <img src={sky} alt='sky.png' />
                 </div>
               </div>
             </div>

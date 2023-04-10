@@ -1,4 +1,10 @@
 import React from 'react';
+import ourEthics from '../../assets/img/our-ethics.png'
+import innovations from '../../assets/img/innovations.png'
+import responsibility from '../../assets/img/responsibility.png'
+
+
+
 
 const TravelExperience = () => {
   return (
@@ -24,7 +30,7 @@ const TravelExperience = () => {
               <div class='box box-our-ethics'>
                 <div class='up-side'>
                   <h6>
-                    <img src='img/our-ethics.png' class='me-2' alt='' />
+                    <img src={ourEthics} class='me-2' alt='' />
                     Our Ethics
                   </h6>
                 </div>
@@ -35,7 +41,7 @@ const TravelExperience = () => {
               <div class='box box-innovations'>
                 <div class='up-side'>
                   <h6>
-                    <img src='img/innovations.png' class='me-2' alt='' />
+                    <img src={innovations} class='me-2' alt='' />
                     Innovations
                   </h6>
                 </div>
@@ -46,7 +52,7 @@ const TravelExperience = () => {
               <div class='box box-responsibility'>
                 <div class='up-side'>
                   <h6>
-                    <img src='img/responsibility.png' class='me-2' alt='' />
+                    <img src={responsibility} class='me-2' alt='' />
                     Responsibility
                   </h6>
                 </div>

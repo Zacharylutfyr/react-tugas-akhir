@@ -1,4 +1,6 @@
 import React from 'react';
+import footerTravelark from '../../assets/img/footer-travelark.png'
+
 
 
 const Footer = () => {
@@ -59,7 +61,7 @@ const Footer = () => {
             <div class='down-side-footer'>
               <div class='left'>
                 <img
-                  src='img/footer-travelark.png'
+                  src={footerTravelark}
                   alt=''
                   class='travelark-orange-logo mb-2'
                 />

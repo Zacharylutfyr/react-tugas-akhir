@@ -1,4 +1,5 @@
 import React from 'react';
+import travelark_navbar from '../../assets/img/travelark_navbar.png'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
       <nav class='navbar navbar-expand-lg pt-3 px-5'>
         <div class='container'>
           <img
-            src='img/travelark_navbar.png'
+            src={travelark_navbar}
             alt='travelark-navbar'
             class='mx-4 px-2'
           />
