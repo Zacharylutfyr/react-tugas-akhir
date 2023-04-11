@@ -3,7 +3,7 @@ import TravelarkGreen from '../../assets/img/travelark-green.png'
 import Line2 from '../../assets/img/line-2.png';
 import nusa from '../../assets/img/nusa.jpg';
 
-const PrivateDetail = () => {
+const PrivateCheckout = () => {
   return (
     <>
       {/* <!-- sesi 1 checkout detail --> */}
@@ -139,4 +139,4 @@ const PrivateDetail = () => {
   );
 };
 
-export default PrivateDetail;
+export default PrivateCheckout

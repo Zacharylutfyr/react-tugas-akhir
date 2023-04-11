@@ -4,7 +4,7 @@ import Line2 from '../../assets/img/line-2.png';
 import nusa from '../../assets/img/nusa.jpg';
 
 
-const DestinationDetail = () => {
+const DestinationCheckout = () => {
   return (
     <>
       <div class='checkout'>
@@ -72,7 +72,7 @@ const DestinationDetail = () => {
                     {/* <!-- <input type="number" id="quantity" name="quantity" min="1"> --> */}
                     <input
                       class='form-control w-25'
-                      type='number'
+                      type='text'
                       placeholder=''
                       aria-label='default input example'
                       min='1'
@@ -102,7 +102,7 @@ const DestinationDetail = () => {
                       <input type='text' class='form-control' id='text2' />
                     </div>
                     <div class='col-12'>
-                      <label for='inputemail4' class='form-label'>
+                      <label for='inputemail4' class='form-label mt-4'>
                         Email
                       </label>
                       <input
@@ -112,7 +112,7 @@ const DestinationDetail = () => {
                       />
                     </div>
                     <div class='col-12'>
-                      <label for='input' class='form-label'>
+                      <label for='input' class='form-label mt-4'>
                         Phone Number
                       </label>
                       <input
@@ -127,7 +127,7 @@ const DestinationDetail = () => {
             </div>
             <button
               type='submit'
-              class='btn btn-success btn-checkout mt-4 w-100'>
+              class='btn btn-success btn-checkout mt-4 mb-5 w-100'>
               Checkout
             </button>
           </form>
@@ -137,4 +137,4 @@ const DestinationDetail = () => {
   );
 };
 
-export default DestinationDetail;
+export default DestinationCheckout;
