@@ -19,7 +19,7 @@ const Content = () => {
               <button>See all</button>
             </div>
           </div>
-          <div class='row'>
+         
             <div class='d-flex flex-wrap justify-content-center'>
               <div class='img-box'>
                 <img src={content1} alt='content1' />
@@ -44,7 +44,6 @@ const Content = () => {
             </div>
           </div>
         </div>
-      </div>
       {/* <!-- Last Most Picked Destination --> */}
     </>
   );

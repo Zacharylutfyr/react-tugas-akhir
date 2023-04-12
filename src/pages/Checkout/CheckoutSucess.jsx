@@ -137,7 +137,7 @@ const CheckoutSucess = () => {
       {/* <!-- sesi 2 order button --> */}
       <div class='container'>
         <div class='text-center'>
-          <button type='submit' class='btn btn-success btn-checkout mt-4 w-50'>
+          <button type='submit' class='btn btn-success btn-checkout mt-4 mb-5 w-50'>
             Back to Home
           </button>
         </div>

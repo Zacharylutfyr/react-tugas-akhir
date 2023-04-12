@@ -5,7 +5,6 @@ import b1 from '../../assets/img/b1.jpg';
 import gambar2 from '../../assets/img/gambar2.jpg';
 
 const DestinationDetailHero = () => {
- 
   return (
     <>
       {/* <!-- hero destination --> */}
@@ -169,13 +168,6 @@ const DestinationDetailHero = () => {
         </div>
       </div>
 
-      <footer class="mt-5">
-            <div class="container">
-                <div class="m-auto text-center">
-                    <p>Copyright © 2023 Travelark. Indonesia</p>
-                </div>
-            </div>
-        </footer>
       {/* <!-- end hero --> */}
     </>
   );

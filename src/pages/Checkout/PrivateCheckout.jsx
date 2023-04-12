@@ -130,7 +130,7 @@ const PrivateCheckout = () => {
             </p>
           </div>
         </div>
-        <button type='submit' class='btn btn-success btn-checkout mt-4 w-100'>
+        <button type='submit' class='btn btn-success btn-checkout mt-4 mb-5 w-100'>
           Checkout
         </button>
       </div>
