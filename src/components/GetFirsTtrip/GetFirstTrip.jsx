@@ -5,12 +5,12 @@ const GetFirstTrip = () => {
   return (
     <>
       {/* <!-- Get First trip --> */}
-      <div class='get-first-trip get-first-trip-discovery'>
-        <div class='container'>
-          <div class='our-package-content'>
-            <div class='down-side-content'>
-              <div class='row down-side-rows'>
-                <div class='col-9 left-down-side'>
+      <div className='get-first-trip get-first-trip-discovery'>
+        <div className='container'>
+          <div className='our-package-content'>
+            <div className='down-side-content'>
+              <div className='row down-side-rows'>
+                <div className='col-9 left-down-side'>
                   <h1>
                     Get 15% <span>for your</span> first trip
                   </h1>
@@ -20,8 +20,8 @@ const GetFirstTrip = () => {
                     with us today and receive 10% off your entire journey.
                   </p>
                 </div>
-                <div class='col-3 right-down-side'>
-                  <button type='button' class='btn button'>
+                <div className='col-3 right-down-side'>
+                  <button type='button' className='btn button'>
                     Get Started
                   </button>
                 </div>

@@ -5,48 +5,48 @@ const Navbar = () => {
   return (
     <>
       {/* <!-- navbar --> */}
-      <nav class='navbar navbar-expand-lg pt-3 px-5'>
-        <div class='container'>
+      <nav className='navbar navbar-expand-lg pt-3 px-5'>
+        <div className='container'>
           <img
             src={travelark_navbar}
             alt='travelark-navbar'
-            class='mx-4 px-2'
+            className='mx-4 px-2'
           />
           <button
-            class='navbar-toggler'
+            className='navbar-toggler'
             type='button'
             data-bs-toggle='collapse'
             data-bs-target='#navbarSupportedContent'
             aria-controls='navbarSupportedContent'
             aria-expanded='false'
             aria-label='Toggle navigation'>
-            <span class='navbar-toggler-icon'></span>
+            <span className='navbar-toggler-icon'></span>
           </button>
-          <div class='collapse navbar-collapse' id='navbarSupportedContent'>
-            <ul class='navbar-nav me-auto mb-2 mb-lg-0 align-content-center'>
-              <li class='nav-item px-3'>
-                <a class='nav-link' href='/discovery'>
+          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+            <ul className='navbar-nav me-auto mb-2 mb-lg-0 align-content-center'>
+              <li className='nav-item px-3'>
+                <a className='nav-link' href='/discovery'>
                   Discovery
                 </a>
               </li>
-              <li class='nav-item px-3'>
-                <a class='nav-link' href='/destination'>
+              <li className='nav-item px-3'>
+                <a className='nav-link' href='/destination'>
                   Destination
                 </a>
               </li>
-              <li class='nav-item px-3'>
-                <a class='nav-link' href='/package'>
+              <li className='nav-item px-3'>
+                <a className='nav-link' href='/package'>
                   Package
                 </a>
               </li>
-              <li class='nav-item px-3'>
-                <a class='nav-link' href='/about-us'>
+              <li className='nav-item px-3'>
+                <a className='nav-link' href='/about-us'>
                   About Us
                 </a>
               </li>
             </ul>
-            <form class='d-flex px-4' role='search'>
-              <button class='btn btn-outline-success' type='submit'>
+            <form className='d-flex px-4' role='search'>
+              <button className='btn btn-outline-success' type='submit'>
                 Register
               </button>
             </form>

@@ -8,31 +8,31 @@ const DestinationDetailHero = () => {
   return (
     <>
       {/* <!-- hero destination --> */}
-      <div class='private-paket mar-top'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12 px-5'>
+      <div className='private-paket mar-top'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-12 px-5'>
               <h1>Nusa Penida, Kelungkung, Bali</h1>
-              <div class='row'>
-                <div class='col d-flex'>
-                  <span class='me-5 px-1'>
-                    <i class='fa-regular fa-map me-2'></i>
+              <div className='row'>
+                <div className='col d-flex'>
+                  <span className='me-5 px-1'>
+                    <i className='fa-regular fa-map me-2'></i>
                     Island/Adventure
                   </span>
-                  <span class='px-1'>
-                    <i class='fa-sharp fa-solid fa-location-dot me-2'></i>
+                  <span className='px-1'>
+                    <i className='fa-sharp fa-solid fa-location-dot me-2'></i>
                     Bali, Indonesia
                   </span>
                 </div>
               </div>
             </div>
           </div>
-          <div class='row'>
-            <div class='col-lg-8 ps-5'>
-              <div class='img-fluid'>
+          <div className='row'>
+            <div className='col-lg-8 ps-5'>
+              <div className='img-fluid'>
                 <img src={gambar3} id='imgFluid' alt='' />
               </div>
-              <div class='img-clik flow-over'>
+              <div className='img-clik flow-over'>
                 <img
                   src={gambar3}
                   id='imgClick'
@@ -65,25 +65,25 @@ const DestinationDetailHero = () => {
                 />
               </div>
             </div>
-            <div class='col-lg-4'>
-              <div class='box-price'>
-                <div class='destination-title'>
+            <div className='col-lg-4'>
+              <div className='box-price'>
+                <div className='destination-title'>
                   <h3>Destination overview</h3>
                 </div>
-                <div class='price-title d-flex justify-content-between'>
-                  <div class='city'>
+                <div className='price-title d-flex justify-content-between'>
+                  <div className='city'>
                     <h4>Nusa Penida, Bali</h4>
                     <p>60 reviews</p>
                   </div>
-                  <div class='star'>
-                    <i class='fa-sharp fa-solid fa-star'></i>
+                  <div className='star'>
+                    <i className='fa-sharp fa-solid fa-star'></i>
                     <span>4.5</span>
                   </div>
                 </div>
-                <div class='price-city'>
+                <div className='price-city'>
                   <h4>Rp. 1.000.000 / Pax</h4>
                 </div>
-                <button type='button' class='btn btn-success'>
+                <button type='button' className='btn btn-success'>
                   Book Now
                 </button>
                 <hr />
@@ -94,12 +94,12 @@ const DestinationDetailHero = () => {
               </div>
             </div>
           </div>
-          <div class='row'>
-            <div class='col-lg-8 px-5 mt-5'>
-              <div class='conten-detail'>
+          <div className='row'>
+            <div className='col-lg-8 px-5 mt-5'>
+              <div className='conten-detail'>
                 <button
                   type='button'
-                  class='btn btn-success me-3'
+                  className='btn btn-success me-3'
                   id='btn1'
                   data-bs-toggle='collapse'
                   href='#collapseExample'
@@ -110,14 +110,14 @@ const DestinationDetailHero = () => {
                 </button>
                 <button
                   type='button'
-                  class='btn btn-success'
+                  className='btn btn-success'
                   id='btn2'
                   data-bs-toggle='collapse'
                   href='#collapseExample2'>
                   What’s include
                 </button>
-                <div id='collapseExample' class='collapse show'>
-                  <div class='card card-body'>
+                <div id='collapseExample' className='collapse show'>
+                  <div className='card card-body'>
                     <p>
                       If you're planning a trip to Bali, you might want to
                       consider a visit to Nusa Penida. This beautiful island is
@@ -135,11 +135,11 @@ const DestinationDetailHero = () => {
                     </p>
                   </div>
                 </div>
-                <div id='collapseExample2' class='collapse'>
-                  <div class='card card-body'>
-                    <div class='acomodation'>
+                <div id='collapseExample2' className='collapse'>
+                  <div className='card card-body'>
+                    <div className='acomodation'>
                       <span>
-                        <i class='icon fa-solid fa-car'></i>Acomodation
+                        <i className='icon fa-solid fa-car'></i>Acomodation
                       </span>
                       <p>
                         Nusa Penida has a variety of accommodations to choose
@@ -151,9 +151,9 @@ const DestinationDetailHero = () => {
                         <li>Nusa Veranda Sunset Villas & Restaurant</li>
                       </p>
                     </div>
-                    <div class='destination'>
+                    <div className='destination'>
                       <span>
-                        <i class='icon fa-solid fa-map-location'></i>Destination
+                        <i className='icon fa-solid fa-map-location'></i>Destination
                       </span>
                       <li>Visit Kelingking Beach</li>
                       <li>Explore Angel's Billabong</li>

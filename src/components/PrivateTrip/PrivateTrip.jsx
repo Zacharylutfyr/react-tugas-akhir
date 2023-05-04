@@ -4,30 +4,30 @@ const PrivateTrip = () => {
   return (
     <>
       {/* <!-- most picked --> */}
-      <div class='conten private-trip-experience-martop'>
-        <div class='container'>
-          <div class='row d-flex justify-content-between'>
-            <div class='col-lg-12 most-text px-5'>
+      <div className='conten private-trip-experience-martop'>
+        <div className='container'>
+          <div className='row d-flex justify-content-between'>
+            <div className='col-lg-12 most-text px-5'>
               <h4>Solo Traveler</h4>
               <h2>Private Trip Experience</h2>
             </div>
           </div>
-          <div class='row mt-3'>
-            <div class='col-lg-6 px-5'>
-              <div class='conten-button'>
-                <button type='button' class='btn btn-success'>
-                  <i class='fa-regular fa-calendar'></i>Choose your own date
+          <div className='row mt-3'>
+            <div className='col-lg-6 px-5'>
+              <div className='conten-button'>
+                <button type='button' className='btn btn-success'>
+                  <i className='fa-regular fa-calendar'></i>Choose your own date
                 </button>
-                <button type='button' class='btn btn-success'>
-                  <i class='fa-solid fa-user-group'></i>Solo or intimate group
+                <button type='button' className='btn btn-success'>
+                  <i className='fa-solid fa-user-group'></i>Solo or intimate group
                 </button>
-                <button type='button' class='btn btn-success'>
-                  <i class='fa-solid fa-building'></i>Custom destination
+                <button type='button' className='btn btn-success'>
+                  <i className='fa-solid fa-building'></i>Custom destination
                 </button>
               </div>
             </div>
-            <div class='col-lg-6'>
-              <p class='text-conten'>
+            <div className='col-lg-6'>
+              <p className='text-conten'>
                 Our team of experts will work with you to create a custom
                 itinerary based on your interests, preferences, and travel
                 style. Whether you're interested in exploring the local culture,

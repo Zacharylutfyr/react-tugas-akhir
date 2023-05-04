@@ -8,11 +8,11 @@ const DestinationHero = () => {
   return (
     <>
       {/* <!-- hero --> */}
-      <div class='hero-package'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-8 col-sm-12 px-5 left-hero'>
-              <div class='content-box'>
+      <div className='hero-package'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-8 col-sm-12 px-5 left-hero'>
+              <div className='content-box'>
                 <h1>Wonderful Destination Trip</h1>
                 <p>
                   With its stunning landscapes, vibrant cities, and rich
@@ -21,20 +21,20 @@ const DestinationHero = () => {
                   beaches and turquoise waters, or indulge in local cuisine and
                   vibrant nightlife.
                 </p>
-                <button type='button' class='btn bg-green1'>
-                  Explore Now <i class='fa-regular fa-circle-right px-3'></i>
+                <button type='button' className='btn bg-green1'>
+                  Explore Now <i className='fa-regular fa-circle-right px-3'></i>
                 </button>
               </div>
             </div>
-            <div class='col-lg-4 col-md-12 col-sm-12 right-hero'>
-              <div class='one-box-hero-destination'></div>
-              <div class='hero-destination-1'>
+            <div className='col-lg-4 col-md-12 col-sm-12 right-hero'>
+              <div className='one-box-hero-destination'></div>
+              <div className='hero-destination-1'>
                 <img src={heroDestination} alt='' />
               </div>
-              <div class='hero-destination-2'>
+              <div className='hero-destination-2'>
                 <img src={heroDestination2} alt='' />
               </div>
-              <div class='five-box hero-destination-3'>
+              <div className='five-box hero-destination-3'>
                 <img src={heroDestination3} alt='' />
               </div>
             </div>

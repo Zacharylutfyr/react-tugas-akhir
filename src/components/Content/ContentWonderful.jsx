@@ -8,29 +8,29 @@ const ContentWonderful = () => {
   return (
     <>
       {/* <!-- Private Trip Experience & Wonderful Place --> */}
-      <div class='conten wonderful-package-martop'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-12 wonderful-title px-5 text-center'>
+      <div className='conten wonderful-package-martop'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-12 wonderful-title px-5 text-center'>
               <h1>Wonderful Place</h1>
               <h5>Any destination you want</h5>
             </div>
           </div>
-          <div class='row'>
-            <div class='d-flex flex-wrap justify-content-center'>
-              <div class='img-box'>
+          <div className='row'>
+            <div className='d-flex flex-wrap justify-content-center'>
+              <div className='img-box'>
                 <img src={content3} alt='content3' />
                 <h2>Gunung Bromo</h2>
               </div>
-              <div class='img-box'>
+              <div className='img-box'>
                 <img src={content2} alt='content2' />
                 <h2>Candi Borobudur</h2>
               </div>
-              <div class='img-box'>
+              <div className='img-box'>
                 <img src={content1} alt='content1' />
                 <h2>Pulau Lombok</h2>
               </div>
-              <div class='img-box'>
+              <div className='img-box'>
                 <img src={content4} alt='content4' />
                 <h2>Pulau Komodo</h2>
               </div>

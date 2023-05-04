@@ -7,11 +7,11 @@ const TravelExperienceReverse = () => {
   return (
     <>
       {/* <!-- Travel Experience --> */}
-      <div class='travel-experience travel-experience-reverse'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-md-12 col-lg-6 left-travel-experience'>
-              <div class='content-left-travel'>
+      <div className='travel-experience travel-experience-reverse'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12 col-lg-6 left-travel-experience'>
+              <div className='content-left-travel'>
                 <h1>
                   The Best Early <br />
                   <span>Travel Experience</span>
@@ -23,37 +23,37 @@ const TravelExperienceReverse = () => {
                 </p>
               </div>
             </div>
-            <div class='col-md-12 col-lg-6 right-travel-experience'>
-              <div class='box box-our-ethics'>
-                <div class='up-side'>
+            <div className='col-md-12 col-lg-6 right-travel-experience'>
+              <div className='box box-our-ethics'>
+                <div className='up-side'>
                   <h6>
-                    <img src={ourEthics}  class='me-2' alt='' />
+                    <img src={ourEthics}  className='me-2' alt='' />
                     Our Ethics
                   </h6>
                 </div>
-                <div class='down-side'>
+                <div className='down-side'>
                   <p>Prioritizing Happy Traveling, Upholding Culture</p>
                 </div>
               </div>
-              <div class='box box-innovations'>
-                <div class='up-side'>
+              <div className='box box-innovations'>
+                <div className='up-side'>
                   <h6>
-                    <img src={innovations}  class='me-2' alt='' />
+                    <img src={innovations}  className='me-2' alt='' />
                     Innovations
                   </h6>
                 </div>
-                <div class='down-side'>
+                <div className='down-side'>
                   <p>Innovating in Service to Our Travel Customers</p>
                 </div>
               </div>
-              <div class='box box-responsibility'>
-                <div class='up-side'>
+              <div className='box box-responsibility'>
+                <div className='up-side'>
                   <h6>
-                    <img src={responsibility} class='me-2' alt='' />
+                    <img src={responsibility} className='me-2' alt='' />
                     Responsibility
                   </h6>
                 </div>
-                <div class='down-side'>
+                <div className='down-side'>
                   <p>Trusted And Experienced Travel Management</p>
                 </div>
               </div>
